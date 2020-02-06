@@ -1,4 +1,5 @@
 import time,pyperclip
+#pretifiedstopwatch.py
 def convert(stime,info):
     etime=time.time()-stime
     retime=round(etime,2)
@@ -22,3 +23,4 @@ while True:
         pyperclip.copy(body)
         print('Exited')
         break
+        
